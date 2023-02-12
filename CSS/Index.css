@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav ul a:hover {
+    background-color: rgb(249, 42, 5);
+
+}
+
+nav::after {
+    content: " ";
+}
+
+main {
+    background-image: url(/Images/Logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+#EcarouselxampleDark {
+    margin: auto;
+    max-width: 70%;
+    max-height: 40%;
+}
+
+.featurette-divider {
+    background-color: rgb(212, 176, 244);
+}
+
+/* .carousel-item{
+width: 50%;
+height: 50%;
+margin-top:1%;
+
+}
+.carousel-item img{
+    width: 50%;
+    height: 50%;
+    margin-top:1%;
+    
+    } */
+/* footer{
+    background-color: rgb(7, 3, 3);
+} */
+/* footer::before{
+    content: ' ';
+   
+} */
+footer {
+ margin-top: auto;
+}
+
+footer a {
+    color: #f6efef;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    background-color: white;
+}
+
+span img {
+    width: 50px;
+    height: 30px;
+}
